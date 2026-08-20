@@ -1,0 +1,74 @@
+.todo-page {
+    padding: 30px;
+}
+
+.todo-page h1 {
+    text-align: center;
+}
+
+.board {
+    display: flex;
+    gap: 20px;
+    align-items: flex-start;
+    justify-content: center;
+
+    margin-top: 30px;
+}
+
+.task-column {
+    width: 300px;
+    min-height: 400px;
+
+    background: #eeeeee;
+
+    padding: 15px;
+
+    border-radius: 10px;
+}
+
+.task-column h2 {
+    text-align: center;
+    margin-top: 0;
+}
+
+.task-card {
+    background: white;
+
+    padding: 15px;
+    margin-bottom: 15px;
+
+    border-radius: 8px;
+
+    border: 1px solid #cccccc;
+}
+
+.task-card h3 {
+    margin-top: 0;
+}
+
+.task-card select {
+    padding: 6px;
+}
+
+.task-card button {
+    padding: 7px 12px;
+    margin-left: 10px;
+
+    cursor: pointer;
+}
+
+.task-card {
+    background: white;
+    padding: 15px;
+    margin-bottom: 15px;
+    border-radius: 8px;
+    border: 1px solid #cccccc;
+
+    overflow: hidden;
+}
+
+.task-card p,
+.task-card h3 {
+    overflow-wrap: anywhere;
+    word-break: break-word;
+}
